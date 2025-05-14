@@ -27,8 +27,8 @@ jobs:
       - name: Replace dashboard with local dashboard
         run: |
           rm -rf packages/admin/dashboard
-          rm -rf ../dashboard/dist
-          cp -r ../dashboard packages/admin/dashboard
+          rm -rf ${GITHUB_WORKSPACE}/dashboard/dist
+          cp -r ${GITHUB_WORKSPACE}/dashboard packages/admin/dashboard
 
       - name: Install Dependencies
         run: yarn install --no-immutable
