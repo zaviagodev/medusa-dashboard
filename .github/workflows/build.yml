@@ -1,0 +1,46 @@
+name: Build and Test
+on:
+  push
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout medusa
+        uses: actions/checkout@v3
+        with:
+          repository: medusajs/medusa
+          fetch-depth: 0
+
+      - name: Checkout dashboard
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          path: dashboard
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "yarn"
+
+      - name: Replace dashboard with local dashboard
+        run: |
+          rm -rf packages/admin/dashboard
+          rm -rf ../dashboard/dist
+          cp -r ../dashboard packages/admin/dashboard
+
+      - name: Install Dependencies
+        run: yarn install --no-immutable
+
+      - name: Build all packages
+        run: yarn build
+
+      - name: Push dashboard to github
+        run: |
+          cd packages/admin/dashboard
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add .
+          git commit -m "Update dashboard"
+          git push
