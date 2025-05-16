@@ -1,4 +1,7 @@
 import {
+  LinkButton
+} from "./chunk-6WKBBTKM.mjs";
+import {
   getLocaleAmount
 } from "./chunk-PDWBYQOW.mjs";
 import {
@@ -28,9 +31,6 @@ import {
   TwoColumnPage
 } from "./chunk-2RQLKDBF.mjs";
 import "./chunk-Q5PHSNDY.mjs";
-import {
-  LinkButton
-} from "./chunk-6WKBBTKM.mjs";
 import {
   useExtension
 } from "./chunk-C5P5PL3E.mjs";

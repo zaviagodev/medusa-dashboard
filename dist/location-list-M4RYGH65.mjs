@@ -3,6 +3,9 @@ import {
 } from "./chunk-BKJC5BGQ.mjs";
 import "./chunk-PYIO3TDQ.mjs";
 import {
+  LinkButton
+} from "./chunk-6WKBBTKM.mjs";
+import {
   SidebarLink
 } from "./chunk-LBIOZZPA.mjs";
 import "./chunk-EQTBJSBZ.mjs";
@@ -12,9 +15,6 @@ import {
 import {
   TwoColumnPage
 } from "./chunk-2RQLKDBF.mjs";
-import {
-  LinkButton
-} from "./chunk-6WKBBTKM.mjs";
 import "./chunk-DG7J63J2.mjs";
 import {
   useExtension
