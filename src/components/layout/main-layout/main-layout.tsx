@@ -173,7 +173,7 @@ const Header = () => {
         )}
       </DropdownMenu>
       <Link to="https://demo.zaviago.com" target="_blank">
-        <Button variant="secondary" className="w-full">
+        <Button variant="secondary" className="w-full mt-2">
           {t("app.nav.main.viewStore")}
           <Window className="mt-[3.2px]" />
         </Button>
