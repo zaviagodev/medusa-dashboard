@@ -13,14 +13,14 @@ import {
   SquaresPlus,
   Tag,
   Users,
+  Window,
 } from "@medusajs/icons"
-import { Avatar, Divider, DropdownMenu, Text, clx } from "@medusajs/ui"
+import { Avatar, Button, Divider, DropdownMenu, Text, clx } from "@medusajs/ui"
 import { Collapsible as RadixCollapsible } from "radix-ui"
 import { useTranslation } from "react-i18next"
 
 import { useStore } from "../../../hooks/api/store"
 import { Skeleton } from "../../common/skeleton"
-import { LinkButton } from "../../common/link-button"
 import { INavItem, NavItem } from "../../layout/nav-item"
 import { Shell } from "../../layout/shell"
 
@@ -172,12 +172,13 @@ const Header = () => {
           </DropdownMenu.Content>
         )}
       </DropdownMenu>
-      <LinkButton
-        to="https://demo.zaviago.com"
-        target="_blank"
-        className="text-ui-fg-subtle hover:text-ui-fg-base focus-visible:text-ui-fg-base">
-        {t("app.nav.main.viewStore")}
-      </LinkButton>
+      <Link to="https://demo.zaviago.com" target="_blank">
+        <Button variant="secondary" className="w-full">
+          {t("app.nav.main.viewStore")}
+          <Window className="mt-[3.2px]" />
+        </Button>
+      </Link>
+
     </div>
   )
 }
