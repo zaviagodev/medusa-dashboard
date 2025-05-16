@@ -2864,7 +2864,7 @@ var Header = () => {
         /* @__PURE__ */ jsx14(Logout2, {})
       ] })
     ] }),
-    /* @__PURE__ */ jsx14(Link3, { to: "https://demo.zaviago.com", target: "_blank", children: /* @__PURE__ */ jsxs9(Button2, { variant: "secondary", className: "w-full", children: [
+    /* @__PURE__ */ jsx14(Link3, { to: "https://demo.zaviago.com", target: "_blank", children: /* @__PURE__ */ jsxs9(Button2, { variant: "secondary", className: "w-full mt-2", children: [
       t2("app.nav.main.viewStore"),
       /* @__PURE__ */ jsx14(Window, { className: "mt-[3.2px]" })
     ] }) })
@@ -3322,7 +3322,7 @@ function getRouteMap({
                   children: [
                     {
                       path: "create",
-                      lazy: () => import("./product-create-XS62WNLX.mjs")
+                      lazy: () => import("./product-create-GLY3CRH3.mjs")
                     },
                     {
                       path: "import",
@@ -3338,7 +3338,7 @@ function getRouteMap({
                   path: ":id",
                   errorElement: /* @__PURE__ */ jsx18(ErrorBoundary, {}),
                   lazy: async () => {
-                    const { Breadcrumb, loader } = await import("./product-detail-73HIYBTT.mjs");
+                    const { Breadcrumb, loader } = await import("./product-detail-4DXEYDCE.mjs");
                     return {
                       Component: Outlet4,
                       loader,
@@ -3350,11 +3350,11 @@ function getRouteMap({
                   children: [
                     {
                       path: "",
-                      lazy: () => import("./product-detail-73HIYBTT.mjs"),
+                      lazy: () => import("./product-detail-4DXEYDCE.mjs"),
                       children: [
                         {
                           path: "edit",
-                          lazy: () => import("./product-edit-YICSRAJ6.mjs")
+                          lazy: () => import("./product-edit-CLWQHHHG.mjs")
                         },
                         {
                           path: "edit-variant",
@@ -3366,15 +3366,15 @@ function getRouteMap({
                         },
                         {
                           path: "attributes",
-                          lazy: () => import("./product-attributes-NFDVNP5U.mjs")
+                          lazy: () => import("./product-attributes-DXO5QYNF.mjs")
                         },
                         {
                           path: "organization",
-                          lazy: () => import("./product-organization-PB23QLBM.mjs")
+                          lazy: () => import("./product-organization-OMKH2G6V.mjs")
                         },
                         {
                           path: "shipping-profile",
-                          lazy: () => import("./product-shipping-profile-KRW262JG.mjs")
+                          lazy: () => import("./product-shipping-profile-VP4ICT4F.mjs")
                         },
                         {
                           path: "media",

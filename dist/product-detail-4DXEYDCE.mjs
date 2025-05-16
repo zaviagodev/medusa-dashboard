@@ -28,8 +28,8 @@ import {
 import "./chunk-Q5PHSNDY.mjs";
 import {
   PRODUCT_DETAIL_FIELDS
-} from "./chunk-WPHS3KQF.mjs";
-import "./chunk-6JUSGEYM.mjs";
+} from "./chunk-V6MMXP44.mjs";
+import "./chunk-WPKXRLL4.mjs";
 import "./chunk-NQIC7ZFS.mjs";
 import "./chunk-ONB3JEHR.mjs";
 import "./chunk-4GQOUCX6.mjs";

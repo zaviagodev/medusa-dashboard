@@ -1,6 +1,6 @@
 import {
   getLinkedFields
-} from "./chunk-6JUSGEYM.mjs";
+} from "./chunk-WPKXRLL4.mjs";
 
 // src/routes/products/product-detail/constants.ts
 var PRODUCT_DETAIL_FIELDS = getLinkedFields(

@@ -1,6 +1,6 @@
 import {
   DashboardApp
-} from "./chunk-6JUSGEYM.mjs";
+} from "./chunk-WPKXRLL4.mjs";
 import "./chunk-NQIC7ZFS.mjs";
 import "./chunk-ONB3JEHR.mjs";
 import "./chunk-4GQOUCX6.mjs";
