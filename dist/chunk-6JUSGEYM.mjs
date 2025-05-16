@@ -12,9 +12,6 @@ import {
   ProgressBar
 } from "./chunk-D3YQN7HV.mjs";
 import {
-  LinkButton
-} from "./chunk-6WKBBTKM.mjs";
-import {
   I18n
 } from "./chunk-WNBMJMFU.mjs";
 import {
@@ -1809,9 +1806,10 @@ import {
   ShoppingCart,
   SquaresPlus,
   Tag,
-  Users
+  Users,
+  Window
 } from "@medusajs/icons";
-import { Avatar as Avatar2, Divider, DropdownMenu as DropdownMenu3, Text as Text5, clx as clx6 } from "@medusajs/ui";
+import { Avatar as Avatar2, Button as Button2, Divider, DropdownMenu as DropdownMenu3, Text as Text5, clx as clx6 } from "@medusajs/ui";
 import { Collapsible as RadixCollapsible2 } from "radix-ui";
 import { useTranslation as useTranslation9 } from "react-i18next";
 
@@ -2866,15 +2864,10 @@ var Header = () => {
         /* @__PURE__ */ jsx14(Logout2, {})
       ] })
     ] }),
-    /* @__PURE__ */ jsx14(
-      LinkButton,
-      {
-        to: "https://demo.zaviago.com",
-        target: "_blank",
-        className: "text-ui-fg-subtle hover:text-ui-fg-base focus-visible:text-ui-fg-base",
-        children: t2("app.nav.main.viewStore")
-      }
-    )
+    /* @__PURE__ */ jsx14(Link3, { to: "https://demo.zaviago.com", target: "_blank", children: /* @__PURE__ */ jsxs9(Button2, { variant: "secondary", className: "w-full", children: [
+      t2("app.nav.main.viewStore"),
+      /* @__PURE__ */ jsx14(Window, { className: "mt-[3.2px]" })
+    ] }) })
   ] });
 };
 var useCoreRoutes = () => {
@@ -3329,7 +3322,7 @@ function getRouteMap({
                   children: [
                     {
                       path: "create",
-                      lazy: () => import("./product-create-T4TXZKUG.mjs")
+                      lazy: () => import("./product-create-XS62WNLX.mjs")
                     },
                     {
                       path: "import",
@@ -3345,7 +3338,7 @@ function getRouteMap({
                   path: ":id",
                   errorElement: /* @__PURE__ */ jsx18(ErrorBoundary, {}),
                   lazy: async () => {
-                    const { Breadcrumb, loader } = await import("./product-detail-M77WIRZR.mjs");
+                    const { Breadcrumb, loader } = await import("./product-detail-73HIYBTT.mjs");
                     return {
                       Component: Outlet4,
                       loader,
@@ -3357,11 +3350,11 @@ function getRouteMap({
                   children: [
                     {
                       path: "",
-                      lazy: () => import("./product-detail-M77WIRZR.mjs"),
+                      lazy: () => import("./product-detail-73HIYBTT.mjs"),
                       children: [
                         {
                           path: "edit",
-                          lazy: () => import("./product-edit-NOE6KQTO.mjs")
+                          lazy: () => import("./product-edit-YICSRAJ6.mjs")
                         },
                         {
                           path: "edit-variant",
@@ -3373,15 +3366,15 @@ function getRouteMap({
                         },
                         {
                           path: "attributes",
-                          lazy: () => import("./product-attributes-DX2BSGZX.mjs")
+                          lazy: () => import("./product-attributes-NFDVNP5U.mjs")
                         },
                         {
                           path: "organization",
-                          lazy: () => import("./product-organization-6P2ZCW4L.mjs")
+                          lazy: () => import("./product-organization-PB23QLBM.mjs")
                         },
                         {
                           path: "shipping-profile",
-                          lazy: () => import("./product-shipping-profile-CRTF74CQ.mjs")
+                          lazy: () => import("./product-shipping-profile-KRW262JG.mjs")
                         },
                         {
                           path: "media",
@@ -3416,7 +3409,7 @@ function getRouteMap({
                     {
                       path: "variants/:variant_id",
                       lazy: async () => {
-                        const { Component, Breadcrumb, loader } = await import("./product-variant-detail-4VLH36BZ.mjs");
+                        const { Component, Breadcrumb, loader } = await import("./product-variant-detail-XLGDSROT.mjs");
                         return {
                           Component,
                           loader,
@@ -3472,7 +3465,7 @@ function getRouteMap({
                 {
                   path: ":id",
                   lazy: async () => {
-                    const { Component, Breadcrumb, loader } = await import("./category-detail-HP26HRAB.mjs");
+                    const { Component, Breadcrumb, loader } = await import("./category-detail-WYEKM62W.mjs");
                     return {
                       Component,
                       loader,
@@ -4179,7 +4172,7 @@ function getRouteMap({
               children: [
                 {
                   path: "",
-                  lazy: () => import("./location-list-TKQBDS5B.mjs")
+                  lazy: () => import("./location-list-M4RYGH65.mjs")
                 },
                 {
                   path: "create",
@@ -4226,7 +4219,7 @@ function getRouteMap({
                 {
                   path: ":location_id",
                   lazy: async () => {
-                    const { Component, Breadcrumb, loader } = await import("./location-detail-SACTKO53.mjs");
+                    const { Component, Breadcrumb, loader } = await import("./location-detail-OOQ5DUUB.mjs");
                     return {
                       Component,
                       loader,

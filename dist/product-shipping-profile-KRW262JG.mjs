@@ -14,14 +14,13 @@ import {
 } from "./chunk-4TC5YS65.mjs";
 import {
   PRODUCT_DETAIL_FIELDS
-} from "./chunk-GZR7ZZPK.mjs";
-import "./chunk-IF7DTLZR.mjs";
+} from "./chunk-WPHS3KQF.mjs";
+import "./chunk-6JUSGEYM.mjs";
 import "./chunk-NQIC7ZFS.mjs";
 import "./chunk-ONB3JEHR.mjs";
 import "./chunk-4GQOUCX6.mjs";
 import "./chunk-2VTICXJR.mjs";
 import "./chunk-D3YQN7HV.mjs";
-import "./chunk-6WKBBTKM.mjs";
 import "./chunk-DG7J63J2.mjs";
 import "./chunk-WNBMJMFU.mjs";
 import "./chunk-MNXC6Q4F.mjs";

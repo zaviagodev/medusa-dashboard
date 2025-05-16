@@ -1,4 +1,7 @@
 import {
+  LinkButton
+} from "./chunk-6WKBBTKM.mjs";
+import {
   useDeleteProductCategoryAction
 } from "./chunk-TP7N4YBP.mjs";
 import {
@@ -34,9 +37,6 @@ import {
 } from "./chunk-2RQLKDBF.mjs";
 import "./chunk-C76H5USB.mjs";
 import "./chunk-Q5PHSNDY.mjs";
-import {
-  LinkButton
-} from "./chunk-6WKBBTKM.mjs";
 import "./chunk-MNXC6Q4F.mjs";
 import {
   useExtension
