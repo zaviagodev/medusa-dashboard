@@ -251,7 +251,8 @@
       },
       "main": {
         "store": "Продавница",
-        "storeSettings": "Поставки за складирање"
+        "storeSettings": "Поставки на продавница",
+        "viewStore": "Види продавница"
       },
       "settings": {
         "header": "Поставки",

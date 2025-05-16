@@ -251,8 +251,9 @@
         "extensions": "확장 기능"
       },
       "main": {
-        "store": "스토어",
-        "storeSettings": "스토어 설정"
+        "store": "상점",
+        "storeSettings": "상점 설정",
+        "viewStore": "상점 보기"
       },
       "settings": {
         "header": "설정",
@@ -2653,7 +2654,10 @@
         "placeholder": "wrong_size",
         "tooltip": "값은 반품 사유에 대한 고유 식별자여야 합니다."
       },
-      "label": { "label": "라벨", "placeholder": "잘못된 사이즈" },
+      "label": {
+        "label": "라벨",
+        "placeholder": "잘못된 사이즈"
+      },
       "description": {
         "label": "설명",
         "placeholder": "고객이 잘못된 사이즈를 받았습니다"

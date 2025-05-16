@@ -251,7 +251,8 @@
       },
       "main": {
         "store": "Magazin",
-        "storeSettings": "Memorează setările"
+        "storeSettings": "Setări magazin",
+        "viewStore": "Vezi magazinul"
       },
       "settings": {
         "header": "Setări",

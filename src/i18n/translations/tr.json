@@ -251,7 +251,8 @@
       },
       "main": {
         "store": "Mağaza",
-        "storeSettings": "Mağaza Ayarları"
+        "storeSettings": "Mağaza Ayarları",
+        "viewStore": "Mağazayı görüntüle"
       },
       "settings": {
         "header": "Ayarlar",

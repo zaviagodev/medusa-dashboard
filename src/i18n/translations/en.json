@@ -252,7 +252,8 @@
       },
       "main": {
         "store": "Store",
-        "storeSettings": "Store settings"
+        "storeSettings": "Store settings",
+        "viewStore": "View store"
       },
       "settings": {
         "header": "Settings",
@@ -2666,7 +2667,10 @@
         "placeholder": "wrong_size",
         "tooltip": "The value should be a unique identifier for the return reason."
       },
-      "label": { "label": "Label", "placeholder": "Wrong size" },
+      "label": {
+        "label": "Label",
+        "placeholder": "Wrong size"
+      },
       "description": {
         "label": "Description",
         "placeholder": "Customer received the wrong size"

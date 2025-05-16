@@ -235,7 +235,8 @@
       },
       "store": {
         "label": "Negozio",
-        "storeSettings": "Impostazioni negozio"
+        "storeSettings": "Impostazioni negozio",
+        "viewStore": "Visualizza negozio"
       },
       "actions": {
         "logout": "Disconnetti"
@@ -251,7 +252,8 @@
       },
       "main": {
         "store": "Negozio",
-        "storeSettings": "Impostazioni negozio"
+        "storeSettings": "Impostazioni negozio",
+        "viewStore": "Visualizza negozio"
       },
       "settings": {
         "header": "Impostazioni",

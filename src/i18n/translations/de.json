@@ -250,7 +250,8 @@
       },
       "main": {
         "store": "Shop",
-        "storeSettings": "Einstellungen speichern"
+        "storeSettings": "Einstellungen speichern",
+        "viewStore": "Shop anzeigen"
       },
       "settings": {
         "header": "Einstellungen",

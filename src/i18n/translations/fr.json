@@ -235,7 +235,8 @@
       },
       "store": {
         "label": "Boutique",
-        "storeSettings": "Paramètres de la boutique"
+        "storeSettings": "Paramètres de la boutique",
+        "viewStore": "Voir la boutique"
       },
       "actions": {
         "logout": "Déconnexion"
@@ -2447,7 +2448,10 @@
         "placeholder": "mauvaise_taille",
         "tooltip": "La valeur doit être un identifiant unique pour la raison de retour."
       },
-      "label": { "label": "Label", "placeholder": "Mauvaise taille" },
+      "label": {
+        "label": "Label",
+        "placeholder": "Mauvaise taille"
+      },
       "description": {
         "label": "Description",
         "placeholder": "Le client a reçu la mauvaise taille"

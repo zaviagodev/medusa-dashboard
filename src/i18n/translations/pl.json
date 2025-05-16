@@ -259,7 +259,8 @@
       },
       "main": {
         "store": "Sklep",
-        "storeSettings": "Ustawienia sklepu"
+        "storeSettings": "Ustawienia sklepu",
+        "viewStore": "Zobacz sklep"
       },
       "settings": {
         "header": "Ustawienia",

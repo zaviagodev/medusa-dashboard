@@ -2446,7 +2446,10 @@
         "placeholder": "wrong_size",
         "tooltip": "El valor debe ser un identificador único para la razón de devolución."
       },
-      "label": { "label": "Etiqueta", "placeholder": "Tamaño incorrecto" },
+      "label": {
+        "label": "Etiqueta",
+        "placeholder": "Tamaño incorrecto"
+      },
       "description": {
         "label": "Descripción",
         "placeholder": "El cliente recibió el tamaño incorrecto"

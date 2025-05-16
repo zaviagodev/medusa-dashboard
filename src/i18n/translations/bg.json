@@ -251,7 +251,8 @@
       },
       "main": {
         "store": "Магазин",
-        "storeSettings": "Настройки на магазина"
+        "storeSettings": "Настройки на магазина",
+        "viewStore": "Виж магазина"
       },
       "settings": {
         "header": "Настройки",

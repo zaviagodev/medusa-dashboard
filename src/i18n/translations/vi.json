@@ -252,7 +252,8 @@
       },
       "main": {
         "store": "Cửa hàng",
-        "storeSettings": "Cài đặt cửa hàng"
+        "storeSettings": "Cài đặt cửa hàng",
+        "viewStore": "Xem cửa hàng"
       },
       "settings": {
         "header": "Cài đặt",
@@ -2652,7 +2653,10 @@
         "placeholder": "wrong_size",
         "tooltip": "Giá trị nên là một định danh duy nhất cho lý do trả hàng."
       },
-      "label": { "label": "Nhãn", "placeholder": "Kích thước sai" },
+      "label": {
+        "label": "Nhãn",
+        "placeholder": "Kích thước sai"
+      },
       "description": {
         "label": "Mô tả",
         "placeholder": "Khách hàng nhận nhầm kích thước"

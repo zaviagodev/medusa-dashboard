@@ -979,9 +979,12 @@
                 },
                 "storeSettings": {
                   "type": "string"
+                },
+                "viewStore": {
+                  "type": "string"
                 }
               },
-              "required": ["store", "storeSettings"],
+              "required": ["store", "storeSettings", "viewStore"],
               "additionalProperties": false
             },
             "settings": {

@@ -20,6 +20,7 @@ import { useTranslation } from "react-i18next"
 
 import { useStore } from "../../../hooks/api/store"
 import { Skeleton } from "../../common/skeleton"
+import { LinkButton } from "../../common/link-button"
 import { INavItem, NavItem } from "../../layout/nav-item"
 import { Shell } from "../../layout/shell"
 
@@ -171,6 +172,12 @@ const Header = () => {
           </DropdownMenu.Content>
         )}
       </DropdownMenu>
+      <LinkButton
+        to="https://demo.zaviago.com"
+        target="_blank"
+        className="text-ui-fg-subtle hover:text-ui-fg-base focus-visible:text-ui-fg-base">
+        {t("app.nav.main.viewStore")}
+      </LinkButton>
     </div>
   )
 }
