@@ -1,0 +1,81 @@
+import {
+  IconAvatar
+} from "./chunk-EQTBJSBZ.mjs";
+
+// src/components/common/logo-box/avatar-box.tsx
+import { motion } from "motion/react";
+import { jsx, jsxs } from "react/jsx-runtime";
+function AvatarBox({ checked }) {
+  return /* @__PURE__ */ jsxs(
+    IconAvatar,
+    {
+      size: "xlarge",
+      className: "bg-ui-button-neutral shadow-buttons-neutral after:button-neutral-gradient relative mb-4 flex h-[50px] w-[50px] items-center justify-center rounded-xl after:inset-0 after:content-['']",
+      children: [
+        checked && /* @__PURE__ */ jsx(
+          motion.div,
+          {
+            className: "absolute -right-[5px] -top-1 flex size-5 items-center justify-center rounded-full border-[0.5px] border-[rgba(3,7,18,0.2)] bg-[#3B82F6] bg-gradient-to-b from-white/0 to-white/20 shadow-[0px_1px_2px_0px_rgba(3,7,18,0.12),0px_1px_2px_0px_rgba(255,255,255,0.10)_inset,0px_-1px_5px_0px_rgba(255,255,255,0.10)_inset,0px_0px_0px_0px_rgba(3,7,18,0.06)_inset]",
+            initial: { opacity: 0, scale: 0.5 },
+            animate: { opacity: 1, scale: 1 },
+            transition: {
+              duration: 1.2,
+              delay: 0.8,
+              ease: [0, 0.71, 0.2, 1.01]
+            },
+            children: /* @__PURE__ */ jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", width: "27", height: "29", fill: "none", children: [
+              /* @__PURE__ */ jsxs("g", { children: [
+                /* @__PURE__ */ jsx("defs", { children: /* @__PURE__ */ jsxs("linearGradient", { id: "idid_qXpcWAcDMg2143647607", x1: "0.49751243781094523", x2: "0.5024875621890548", y1: "0", y2: "1", children: [
+                  /* @__PURE__ */ jsx("stop", { offset: "0", "stop-color": "rgb(173,126,225)", "stop-opacity": "1" }),
+                  /* @__PURE__ */ jsx("stop", { offset: "1", "stop-color": "rgb(42,100,187)", "stop-opacity": "1" })
+                ] }) }),
+                /* @__PURE__ */ jsx("path", { d: "M 10.534 0.819 L 2.997 5.163 C 1.262 6.162 0.193 8.01 0.193 10.009 L 0.193 18.742 C 0.193 20.741 1.262 22.589 2.997 23.588 L 10.572 27.954 C 12.307 28.954 14.444 28.954 16.178 27.954 L 20.894 25.237 L 10.578 19.228 C 8.856 18.225 7.797 16.385 7.797 14.394 L 7.797 5.652 C 7.797 3.525 8.935 1.792 10.537 0.842 C 10.58 0.816 10.57 0.798 10.534 0.819 Z", fill: "url(#idid_qXpcWAcDMg2143647607)" })
+              ] }),
+              /* @__PURE__ */ jsxs("g", { children: [
+                /* @__PURE__ */ jsx("defs", { children: /* @__PURE__ */ jsxs("linearGradient", { id: "idid_NQFUAF61gg-263379408", x1: "0", x2: "1", y1: "0.19293045194737052", y2: "0.8070695480526295", children: [
+                  /* @__PURE__ */ jsx("stop", { offset: "0", "stop-color": "rgb(47,153,255)", "stop-opacity": "1" }),
+                  /* @__PURE__ */ jsx("stop", { offset: "1", "stop-color": "rgb(0,44,125)", "stop-opacity": "1" })
+                ] }) }),
+                /* @__PURE__ */ jsx("path", { d: "M 26.625 9.961 L 26.629 18.642 C 26.629 18.684 26.607 18.683 26.607 18.633 C 26.582 16.775 21.384 13.415 19.537 12.352 C 19.537 12.352 18.722 11.527 18.183 11.048 C 17.644 10.568 17.618 10.546 17.216 10.28 C 16.867 10.05 16.504 9.87 16.271 9.754 L 16.249 9.743 C 16.017 9.628 15.321 9.321 15.321 9.321 C 12.922 8.478 12.226 8.401 10.834 9.475 C 10.834 9.475 9.209 11.048 8.59 12.467 C 7.971 13.886 7.814 15.133 8.087 15.919 C 8.101 15.958 8.11 15.995 8.117 16.03 C 8.922 18.066 9.482 18.389 10.889 19.2 C 10.993 19.261 11.103 19.324 11.218 19.391 L 14.777 21.079 L 21.43 23.495 L 15.985 27.954 C 14.251 28.954 12.113 28.954 10.379 27.954 L 2.803 23.588 C 1.069 22.589 0 20.741 0 18.742 L 0 10.009 C 0 8.01 1.069 6.162 2.803 5.163 L 10.34 0.819 C 10.377 0.798 10.387 0.816 10.344 0.842 C 10.257 0.893 10.17 0.966 10.083 1.058 L 10.622 0.748 C 12.358 -0.25 14.497 -0.249 16.233 0.75 L 23.817 5.117 C 25.553 6.116 26.624 7.963 26.625 9.961 Z", fill: "url(#idid_NQFUAF61gg-263379408)" })
+              ] }),
+              /* @__PURE__ */ jsxs("g", { children: [
+                /* @__PURE__ */ jsx("defs", { children: /* @__PURE__ */ jsxs("linearGradient", { id: "idid_tB0RUb7cAg7674", x1: "0.1582083976082272", x2: "0.8417916023917729", y1: "1", y2: "0", children: [
+                  /* @__PURE__ */ jsx("stop", { offset: "0", "stop-color": "rgb(36,165,250)", "stop-opacity": "1" }),
+                  /* @__PURE__ */ jsx("stop", { offset: "1", "stop-color": "rgb(36,165,249)", "stop-opacity": "1" })
+                ] }) }),
+                /* @__PURE__ */ jsx("path", { d: "M 3.146 23.806 L 10.746 28.2 C 12.498 29.203 14.711 29.183 16.465 28.178 L 24.122 23.789 C 25.876 22.783 26.956 20.927 26.957 18.918 L 26.961 10.146 C 26.962 8.138 25.883 6.282 24.131 5.279 L 19.367 2.551 L 19.306 14.528 C 19.296 16.527 18.217 18.372 16.471 19.372 L 8.805 23.767 C 6.939 24.836 4.846 24.719 3.204 23.806 C 3.159 23.781 3.109 23.785 3.146 23.806 Z", fill: "url(#idid_tB0RUb7cAg7674)" })
+              ] })
+            ] })
+          }
+        ),
+        /* @__PURE__ */ jsxs("svg", { className: "rounded-[10px]", xmlns: "http://www.w3.org/2000/svg", width: "27", height: "29", fill: "none", children: [
+          /* @__PURE__ */ jsxs("g", { children: [
+            /* @__PURE__ */ jsx("defs", { children: /* @__PURE__ */ jsxs("linearGradient", { id: "idid_qXpcWAcDMg2143647607", x1: "0.49751243781094523", x2: "0.5024875621890548", y1: "0", y2: "1", children: [
+              /* @__PURE__ */ jsx("stop", { offset: "0", "stop-color": "rgb(173,126,225)", "stop-opacity": "1" }),
+              /* @__PURE__ */ jsx("stop", { offset: "1", "stop-color": "rgb(42,100,187)", "stop-opacity": "1" })
+            ] }) }),
+            /* @__PURE__ */ jsx("path", { d: "M 10.534 0.819 L 2.997 5.163 C 1.262 6.162 0.193 8.01 0.193 10.009 L 0.193 18.742 C 0.193 20.741 1.262 22.589 2.997 23.588 L 10.572 27.954 C 12.307 28.954 14.444 28.954 16.178 27.954 L 20.894 25.237 L 10.578 19.228 C 8.856 18.225 7.797 16.385 7.797 14.394 L 7.797 5.652 C 7.797 3.525 8.935 1.792 10.537 0.842 C 10.58 0.816 10.57 0.798 10.534 0.819 Z", fill: "url(#idid_qXpcWAcDMg2143647607)" })
+          ] }),
+          /* @__PURE__ */ jsxs("g", { children: [
+            /* @__PURE__ */ jsx("defs", { children: /* @__PURE__ */ jsxs("linearGradient", { id: "idid_NQFUAF61gg-263379408", x1: "0", x2: "1", y1: "0.19293045194737052", y2: "0.8070695480526295", children: [
+              /* @__PURE__ */ jsx("stop", { offset: "0", "stop-color": "rgb(47,153,255)", "stop-opacity": "1" }),
+              /* @__PURE__ */ jsx("stop", { offset: "1", "stop-color": "rgb(0,44,125)", "stop-opacity": "1" })
+            ] }) }),
+            /* @__PURE__ */ jsx("path", { d: "M 26.625 9.961 L 26.629 18.642 C 26.629 18.684 26.607 18.683 26.607 18.633 C 26.582 16.775 21.384 13.415 19.537 12.352 C 19.537 12.352 18.722 11.527 18.183 11.048 C 17.644 10.568 17.618 10.546 17.216 10.28 C 16.867 10.05 16.504 9.87 16.271 9.754 L 16.249 9.743 C 16.017 9.628 15.321 9.321 15.321 9.321 C 12.922 8.478 12.226 8.401 10.834 9.475 C 10.834 9.475 9.209 11.048 8.59 12.467 C 7.971 13.886 7.814 15.133 8.087 15.919 C 8.101 15.958 8.11 15.995 8.117 16.03 C 8.922 18.066 9.482 18.389 10.889 19.2 C 10.993 19.261 11.103 19.324 11.218 19.391 L 14.777 21.079 L 21.43 23.495 L 15.985 27.954 C 14.251 28.954 12.113 28.954 10.379 27.954 L 2.803 23.588 C 1.069 22.589 0 20.741 0 18.742 L 0 10.009 C 0 8.01 1.069 6.162 2.803 5.163 L 10.34 0.819 C 10.377 0.798 10.387 0.816 10.344 0.842 C 10.257 0.893 10.17 0.966 10.083 1.058 L 10.622 0.748 C 12.358 -0.25 14.497 -0.249 16.233 0.75 L 23.817 5.117 C 25.553 6.116 26.624 7.963 26.625 9.961 Z", fill: "url(#idid_NQFUAF61gg-263379408)" })
+          ] }),
+          /* @__PURE__ */ jsxs("g", { children: [
+            /* @__PURE__ */ jsx("defs", { children: /* @__PURE__ */ jsxs("linearGradient", { id: "idid_tB0RUb7cAg7674", x1: "0.1582083976082272", x2: "0.8417916023917729", y1: "1", y2: "0", children: [
+              /* @__PURE__ */ jsx("stop", { offset: "0", "stop-color": "rgb(36,165,250)", "stop-opacity": "1" }),
+              /* @__PURE__ */ jsx("stop", { offset: "1", "stop-color": "rgb(36,165,249)", "stop-opacity": "1" })
+            ] }) }),
+            /* @__PURE__ */ jsx("path", { d: "M 3.146 23.806 L 10.746 28.2 C 12.498 29.203 14.711 29.183 16.465 28.178 L 24.122 23.789 C 25.876 22.783 26.956 20.927 26.957 18.918 L 26.961 10.146 C 26.962 8.138 25.883 6.282 24.131 5.279 L 19.367 2.551 L 19.306 14.528 C 19.296 16.527 18.217 18.372 16.471 19.372 L 8.805 23.767 C 6.939 24.836 4.846 24.719 3.204 23.806 C 3.159 23.781 3.109 23.785 3.146 23.806 Z", fill: "url(#idid_tB0RUb7cAg7674)" })
+          ] })
+        ] })
+      ]
+    }
+  );
+}
+
+export {
+  AvatarBox
+};
