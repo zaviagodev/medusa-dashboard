@@ -253,7 +253,8 @@
       "main": {
         "store": "상점",
         "storeSettings": "상점 설정",
-        "viewStore": "상점 보기"
+        "viewStore": "상점 보기",
+        "viewb2bStore": "B2B 상점 보기"
       },
       "settings": {
         "header": "설정",

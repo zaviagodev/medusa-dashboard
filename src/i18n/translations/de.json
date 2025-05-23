@@ -251,7 +251,8 @@
       "main": {
         "store": "Shop",
         "storeSettings": "Einstellungen speichern",
-        "viewStore": "Shop anzeigen"
+        "viewStore": "Shop anzeigen",
+        "viewb2bStore": "B2B-Shop anzeigen"
       },
       "settings": {
         "header": "Einstellungen",

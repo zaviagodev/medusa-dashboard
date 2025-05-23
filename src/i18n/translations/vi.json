@@ -253,7 +253,8 @@
       "main": {
         "store": "Cửa hàng",
         "storeSettings": "Cài đặt cửa hàng",
-        "viewStore": "Xem cửa hàng"
+        "viewStore": "Xem cửa hàng",
+        "viewb2bStore": "Xem cửa hàng B2B"
       },
       "settings": {
         "header": "Cài đặt",

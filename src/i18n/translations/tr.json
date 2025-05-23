@@ -252,7 +252,8 @@
       "main": {
         "store": "Mağaza",
         "storeSettings": "Mağaza Ayarları",
-        "viewStore": "Mağazayı görüntüle"
+        "viewStore": "Mağazayı görüntüle",
+        "viewb2bStore": "B2B mağazayı görüntüle"
       },
       "settings": {
         "header": "Ayarlar",

@@ -235,8 +235,7 @@
       },
       "store": {
         "label": "Boutique",
-        "storeSettings": "Paramètres de la boutique",
-        "viewStore": "Voir la boutique"
+        "storeSettings": "Paramètres de la boutique"
       },
       "actions": {
         "logout": "Déconnexion"

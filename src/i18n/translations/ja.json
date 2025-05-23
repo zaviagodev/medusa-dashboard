@@ -235,8 +235,7 @@
       },
       "store": {
         "label": "ストア",
-        "storeSettings": "ストア設定",
-        "viewStore": "ストアを表示"
+        "storeSettings": "ストア設定"
       },
       "actions": {
         "logout": "ログアウト"
@@ -253,7 +252,8 @@
       "main": {
         "store": "ストア",
         "storeSettings": "ストア設定",
-        "viewStore": "ストアを表示"
+        "viewStore": "ストアを表示",
+        "viewb2bStore": "B2Bストアを表示"
       },
       "settings": {
         "header": "設定",

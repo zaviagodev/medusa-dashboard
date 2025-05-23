@@ -982,9 +982,12 @@
                 },
                 "viewStore": {
                   "type": "string"
+                },
+                "viewb2bStore": {
+                  "type": "string"
                 }
               },
-              "required": ["store", "storeSettings", "viewStore"],
+              "required": ["store", "storeSettings", "viewStore", "viewb2bStore"],
               "additionalProperties": false
             },
             "settings": {

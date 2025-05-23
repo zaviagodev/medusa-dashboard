@@ -253,7 +253,8 @@
       "main": {
         "store": "Winkel",
         "storeSettings": "Winkelinstellingen",
-        "viewStore": "Bekijk winkel"
+        "viewStore": "Bekijk winkel",
+        "viewb2bStore": "Bekijk B2B-winkel"
       },
       "settings": {
         "header": "Instellingen",

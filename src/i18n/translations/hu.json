@@ -236,8 +236,7 @@
       },
       "store": {
         "label": "Áruház",
-        "storeSettings": "Áruházbeállítások",
-        "viewStore": "Áruház megtekintése"
+        "storeSettings": "Áruházbeállítások"
       },
       "actions": {
         "logout": "Kijelentkezés"
@@ -254,7 +253,8 @@
       "main": {
         "store": "Áruház",
         "storeSettings": "Áruházbeállítások",
-        "viewStore": "Áruház megtekintése"
+        "viewStore": "Áruház megtekintése",
+        "viewb2bStore": "B2B áruház megtekintése"
       },
       "settings": {
         "header": "Beállítások",

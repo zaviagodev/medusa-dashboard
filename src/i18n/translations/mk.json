@@ -252,7 +252,8 @@
       "main": {
         "store": "Продавница",
         "storeSettings": "Поставки на продавница",
-        "viewStore": "Види продавница"
+        "viewStore": "Види продавница",
+        "viewb2bStore": "Види B2B продавница"
       },
       "settings": {
         "header": "Поставки",

@@ -252,7 +252,8 @@
       "main": {
         "store": "Magazin",
         "storeSettings": "Setări magazin",
-        "viewStore": "Vezi magazinul"
+        "viewStore": "Vezi magazinul",
+        "viewb2bStore": "Vezi magazinul B2B"
       },
       "settings": {
         "header": "Setări",
@@ -1678,7 +1679,7 @@
     "stateOrTerritory": {
       "header": "State sau Teritorii",
       "create": {
-        "header": "Creați regiune fiscală de stat/teritoriu",
+        "header": "Creați regiunea fiscală de stat/teritoriu",
         "hint": "Creați o nouă regiune fiscală pentru a defini cotele de impozitare pentru un anumit stat/teritoriu."
       }
     },

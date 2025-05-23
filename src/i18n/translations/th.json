@@ -251,7 +251,8 @@
       "main": {
         "store": "ร้านค้า",
         "storeSettings": "การตั้งค่าร้านค้า",
-        "viewStore": "ดูร้านค้า"
+        "viewStore": "ดูร้านค้า",
+        "viewb2bStore": "ดูร้านค้า B2B"
       },
       "settings": {
         "header": "การตั้งค่า",

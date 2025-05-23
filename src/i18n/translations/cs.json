@@ -252,7 +252,8 @@
       "main": {
         "store": "Obchod",
         "storeSettings": "Nastavení obchodu",
-        "viewStore": "Zobrazit obchod"
+        "viewStore": "Zobrazit obchod",
+        "viewb2bStore": "Zobrazit B2B obchod"
       },
       "settings": {
         "header": "Nastavení",

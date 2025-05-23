@@ -253,7 +253,8 @@
       "main": {
         "store": "Parduotuvė",
         "storeSettings": "Parduotuvės nustatymai",
-        "viewStore": "Peržiūrėti parduotuvę"
+        "viewStore": "Peržiūrėti parduotuvę",
+        "viewb2bStore": "Peržiūrėti B2B parduotuvę"
       },
       "settings": {
         "header": "Nustatymai",

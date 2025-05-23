@@ -252,7 +252,8 @@
       "main": {
         "store": "المتجر",
         "storeSettings": "إعدادات المتجر",
-        "viewStore": "عرض المتجر"
+        "viewStore": "عرض المتجر",
+        "viewb2bStore": "عرض المتجر B2B"
       },
       "settings": {
         "header": "الإعدادات",

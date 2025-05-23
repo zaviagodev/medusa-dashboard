@@ -260,7 +260,8 @@
       "main": {
         "store": "Sklep",
         "storeSettings": "Ustawienia sklepu",
-        "viewStore": "Zobacz sklep"
+        "viewStore": "Zobacz sklep",
+        "viewb2bStore": "Zobacz sklep B2B"
       },
       "settings": {
         "header": "Ustawienia",

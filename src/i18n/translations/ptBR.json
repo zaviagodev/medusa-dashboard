@@ -251,7 +251,8 @@
       "main": {
         "store": "Loja",
         "storeSettings": "Configurações da loja",
-        "viewStore": "Ver loja"
+        "viewStore": "Ver loja",
+        "viewb2bStore": "Ver loja B2B"
       },
       "settings": {
         "header": "Configurações",

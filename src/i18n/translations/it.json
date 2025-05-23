@@ -236,7 +236,8 @@
       "store": {
         "label": "Negozio",
         "storeSettings": "Impostazioni negozio",
-        "viewStore": "Visualizza negozio"
+        "viewStore": "Visualizza negozio",
+        "viewb2bStore": "Visualizza negozio B2B"
       },
       "actions": {
         "logout": "Disconnetti"

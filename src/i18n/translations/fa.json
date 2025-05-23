@@ -236,7 +236,8 @@
       "store": {
         "label": "فروشگاه",
         "storeSettings": "تنظیمات فروشگاه",
-        "viewStore": "مشاهده فروشگاه"
+        "viewStore": "مشاهده فروشگاه",
+        "viewb2bStore": "مشاهده فروشگاه B2B"
       },
       "actions": {
         "logout": "خروج"
@@ -253,7 +254,8 @@
       "main": {
         "store": "فروشگاه",
         "storeSettings": "تنظیمات فروشگاه",
-        "viewStore": "مشاهده فروشگاه"
+        "viewStore": "مشاهده فروشگاه",
+        "viewb2bStore": "مشاهده فروشگاه B2B"
       },
       "settings": {
         "header": "تنظیمات",
